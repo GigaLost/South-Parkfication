@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>South Parkfication</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .bg-stack {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: -1;
+    }
+    .bg-stack img {
+      width: 100%;
+      opacity: 0.30;
+      display: block;
+    }
+  </style>
+</head>
+<body class="bg-gray-900 text-white relative overflow-x-hidden">
+  <!-- Background Stack -->
+  <div class="bg-stack">
+    <img src="bg1.jpg" alt="background 1" />
+    <img src="meme1.jpg" alt="background 2" />
+    <img src="meme2.jpg" alt="background 3" />
+    <img src="meme3.jpg" alt="background 4" />
+    <img src="meme5.jpg" alt="background 5" />
+    <img src="meme4.jpg" alt="background 6" />
+  </div>
+
+  <!-- Hero Section -->
+  <div class="h-screen flex flex-col items-center justify-center text-center px-4">
+    <h1 class="text-5xl md:text-7xl font-bold mb-4">South Parkfication ($SOUTHPARK)</h1>
+    <p class="text-xl md:text-2xl max-w-2xl mb-6">Reviving Meme Culture – One South Park-Style Joke at a Time!</p>
+  </div>
+
+  <!-- About Section -->
+  <section class="bg-gray-800 bg-opacity-10 py-16 px-6 md:px-20">
+    <h2 class="text-3xl font-bold mb-6 text-center">What is South Parkfication ($SOUTHPARK)?</h2>
+    <p class="max-w-4xl mx-auto text-lg mb-6">
+      <strong>$SOUTHPARK</strong> is more than just a memecoin – it's a cultural resurrection. Born out of the chaos of crypto’s golden meme era and wrapped in the unfiltered energy of <em>South Park</em>, South Parkfication aims to reignite what made early crypto special: the fun, the madness, the anti-corporate spirit, and the absurd.
+    </p>
+    <p class="max-w-4xl mx-auto text-lg mb-6">
+      This isn’t just another token with fake promises and copy-paste roadmaps. $SOUTHPARK stands for the degens, the meme lords, and every misfit who remembers when shitposting was a lifestyle and tokens were launched for laughs – not VC funds.
+    </p>
+    <ul class="max-w-4xl mx-auto text-lg list-disc list-inside space-y-4">
+      <li><strong>Meme First. Logic Later.</strong> Community-created memes in the iconic South Park style are the core of $SOUTHPARK. Everyone is free to create, remix, and post.</li>
+      <li><strong>No Utility? No Problem.</strong> $SOUTHPARK isn’t trying to be the next DeFi protocol. It’s a token for the culture. For the jokes. For the chaos.</li>
+      <li><strong>CTO-Backed Vibes.</strong> Community Token Only. That means no dev wallets, no whales, no BS – just community-led growth and shared laughter.</li>
+      <li><strong>Nostalgia-Powered.</strong> Remember Doge, Pepe, Wojak, and all the OG vibes? $SOUTHPARK is bringing it all back – South Park style.</li>
+      <li><strong>Future Vision:</strong> As the community grows, so does the lore. Think NFT drops, meme competitions, custom South Parkfication avatars, and maybe even an animated miniseries. It’s up to <em>you</em>, not some roadmap.</li>
+    </ul>
+  </section>
+
+  <!-- Contract Address Section -->
+  <section class="bg-gray-900 bg-opacity-10 py-12 px-6 md:px-20 text-center">
+    <h2 class="text-2xl font-bold mb-4">Contract Address</h2>
+    <p class="text-lg mb-4">Click to copy:</p>
+    <button onclick="copyCA()" class="text-yellow-400 hover:underline break-all text-xl">HwZmJuDrvpMwUme1HRh4zwrLfUZBFyAT6B7RfsNapump</button>
+  </section>
+
+  <!-- Links Section -->
+  <section class="bg-gray-800 bg-opacity-10 py-12 px-6 md:px-20 text-center">
+    <h2 class="text-2xl font-bold mb-4">Join the Movement</h2>
+    <div class="flex flex-col md:flex-row justify-center gap-6 text-lg">
+      <a href="https://t.me/southpark_sol" target="_blank" class="text-yellow-400 hover:underline">Telegram Community</a>
+      <a href="https://dexscreener.com/solana/4Zff1gZL3ajbEox3byxXWVy6UR43yybjskEGV3uXtV93" target="_blank" class="text-yellow-400 hover:underline">DEX Screener</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 bg-opacity-80 text-center py-8 text-sm">
+    <p>Not financial advice – just memes. Copyright © 2025 South Parkfication</p>
+  </footer>
+
+  <script>
+    function copyCA() {
+      navigator.clipboard.writeText('HwZmJuDrvpMwUme1HRh4zwrLfUZBFyAT6B7RfsNapump').then(() => {
+        alert('Contract address copied to clipboard!');
+      });
+    }
+  </script>
+</body>
+</html>
